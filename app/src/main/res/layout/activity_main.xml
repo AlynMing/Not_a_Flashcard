@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/card_background"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="What doesth the foxeth say?"
+        android:textColor="#FFFF00"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/Answer_Boi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/answer_background"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Meowwwww!"
+        android:textColor="#FF0000"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/right_answer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="251dp"
+        android:background="#00008b"
+        android:gravity="center"
+        android:text="Meoooww!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/wrong_answer1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp"
+        android:gravity="center"
+        android:background="#00008b"
+        android:textColor="#FFFFFF"
+        android:text="Rawr xD"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/wrong_answer2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="#00008b"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Woof!"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/eye_open"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/eye_open_foreground" />
+
+    <ImageView
+        android:id="@+id/eye_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/eye_close_foreground"
+        android:visibility="invisible" />
+</RelativeLayout>
